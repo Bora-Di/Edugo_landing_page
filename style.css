@@ -42,7 +42,9 @@ html {
 
 section,
 footer {
-    padding: 9rem 5rem;
+    padding: 4rem;
+    max-width: 100%;
+    padding-bottom: 1rem;
 }
 
 .row {
@@ -211,9 +213,11 @@ nav ul a:hover {
 
 section.hero {
     display: grid;
+    height: 100vh;
     grid-template-columns: 5fr 7fr;
     align-items: center;
     justify-content: right;
+    box-shadow: 0 2rem 1.5rem rgba(0, 0, 0, 0.05);
 }
 
 #header-shape {
@@ -349,7 +353,7 @@ section.hero {
 
 .testimonial .column {
     background-color: var(--white-shade-1);
-    padding: 4rem 4rem;
+    padding: 2rem 1rem;
     text-align: center;
     border-radius: var(--border-radius-1);
     border-color: var(--base-shade-1);
